@@ -180,8 +180,8 @@ public class RobotContainer {
     // bButton.toggleWhenPressed(m_driveForwardTimed, false);
     LTrigger.whenHeld(m_dumperMoveMotorUp);
     RTrigger.whenHeld(m_dumperMoveMotorDown);
-    LButton.whenPressed(m_dumperVomit);
-    RButton.whenPressed(m_dumperIntake);
+    LButton.whenHeld(m_dumperVomit);
+    RButton.whenHeld(m_dumperIntake);
     leftJoystickPress.whenHeld(m_boost);
     rightJoystickPress.whenHeld(m_boost);
     bButton.toggleWhenPressed(m_encoderTest);
